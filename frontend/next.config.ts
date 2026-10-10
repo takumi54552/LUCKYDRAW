@@ -4,8 +4,6 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
   devIndicators: false,
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
